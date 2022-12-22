@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BackstopJS" tests="1" failures="1" errors="1" skipped="0">
+    <testcase classname="section.section--text.section--text-double.fades.light.el__show" name=" ›› XBS Homepage">
+      <failure message="Design deviation ›› XBS Homepage (section.section--text.section--text-double.fades.light.el__show) component"/>
+      <error message="Design deviation ›› XBS Homepage (section.section--text.section--text-double.fades.light.el__show) component"/>
+    </testcase>
+  </testsuite>
+</testsuites>

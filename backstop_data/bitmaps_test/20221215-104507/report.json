@@ -1,0 +1,23 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/XBSHomepage-PoC_XBS_Homepage_0_sectionsection--textsection--text-doublefadeslightel__show_0_laptop.png",
+        "test": "../bitmaps_test/20221215-104507/XBSHomepage-PoC_XBS_Homepage_0_sectionsection--textsection--text-doublefadeslightel__show_0_laptop.png",
+        "selector": "section.section--text.section--text-double.fades.light.el__show",
+        "fileName": "XBSHomepage-PoC_XBS_Homepage_0_sectionsection--textsection--text-doublefadeslightel__show_0_laptop.png",
+        "label": "XBS Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://crossborder.ai/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "laptop",
+        "error": "Reference file not found /Users/alexpradap/Documents/Devsavant/XBS/repos/xbs_puppeteer_poc/backstop_data/bitmaps_reference/XBSHomepage-PoC_XBS_Homepage_0_sectionsection--textsection--text-doublefadeslightel__show_0_laptop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "XBS Homepage - PoC"
+}

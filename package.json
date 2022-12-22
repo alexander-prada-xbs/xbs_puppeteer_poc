@@ -1,0 +1,22 @@
+{
+  "name": "xbs_puppeteer_poc",
+  "version": "1.0.0",
+  "description": "Small project using nodejs and puppeteer to automate tests in xbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-xbs:alexander-prada-xbs/xbs_puppeteer_poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.0",
+    "backstopjs": "^6.1.4",
+    "puppeteer": "^19.4.0",
+    "puppeteer-autoscroll-down": "^1.1.1"
+  }
+}
