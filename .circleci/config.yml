@@ -30,6 +30,7 @@ jobs:
       - image: ubuntu:latest
     steps:
       - run: "apt-get update"
+      - run: "apt-get install -y wget"
       - run: "apt-get install -y openjdk-8-jre-headless"
       - checkout
       - run: "wget https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.tgz"
