@@ -35,8 +35,11 @@ jobs:
       - checkout
       - run: "wget https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.tgz"
       - run: "tar -xvf apache-jmeter-5.5.tgz"
-      - run: "cd jmeter_test"
-      - run: "../apache-jmeter-5.5/bin/jmeter.sh -n -t worldtime_api_test.jmx -l sample_log.jtl -j execution_log.txt"
+      - run: 
+          name: "Run jmeter test"
+          command: |
+            cd jmeter_test
+            ../apache-jmeter-5.5/bin/jmeter.sh -n -t worldtime_api_test.jmx -l sample_log.jtl -j execution_log.txt
 
 
 # Invoke jobs via workflows
