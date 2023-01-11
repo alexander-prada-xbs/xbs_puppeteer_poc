@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="244" it="0" lt="243" ct="168" ts="1673451338952" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" de="utf-8" by="7509" sby="133" sc="1" ec="0" ng="1" na="1" hn="6c19e3407242">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: 
+cache-control: max-age=0, private, must-revalidate
+content-length: 6873
+content-type: application/json; charset=utf-8
+cross-origin-window-policy: deny
+date: Wed, 11 Jan 2023 15:35:38 GMT
+server: Fly/6ba06c04e (2023-01-09)
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: FzlLIHOg5P28xwh9R9jh
+x-runtime: 325Âµs
+x-xss-protection: 1; mode=block
+via: 1.1 fly.io
+fly-request-id: 01GPGQHZGYEC70JEEVFTD9ZR62-mia
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: worldtimeapi.org
+User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_352)
+</requestHeader>
+  <responseData class="java.lang.String">[&quot;Africa/Abidjan&quot;,&quot;Africa/Accra&quot;,&quot;Africa/Algiers&quot;,&quot;Africa/Bissau&quot;,&quot;Africa/Cairo&quot;,&quot;Africa/Casablanca&quot;,&quot;Africa/Ceuta&quot;,&quot;Africa/El_Aaiun&quot;,&quot;Africa/Johannesburg&quot;,&quot;Africa/Juba&quot;,&quot;Africa/Khartoum&quot;,&quot;Africa/Lagos&quot;,&quot;Africa/Maputo&quot;,&quot;Africa/Monrovia&quot;,&quot;Africa/Nairobi&quot;,&quot;Africa/Ndjamena&quot;,&quot;Africa/Sao_Tome&quot;,&quot;Africa/Tripoli&quot;,&quot;Africa/Tunis&quot;,&quot;Africa/Windhoek&quot;,&quot;America/Adak&quot;,&quot;America/Anchorage&quot;,&quot;America/Araguaina&quot;,&quot;America/Argentina/Buenos_Aires&quot;,&quot;America/Argentina/Catamarca&quot;,&quot;America/Argentina/Cordoba&quot;,&quot;America/Argentina/Jujuy&quot;,&quot;America/Argentina/La_Rioja&quot;,&quot;America/Argentina/Mendoza&quot;,&quot;America/Argentina/Rio_Gallegos&quot;,&quot;America/Argentina/Salta&quot;,&quot;America/Argentina/San_Juan&quot;,&quot;America/Argentina/San_Luis&quot;,&quot;America/Argentina/Tucuman&quot;,&quot;America/Argentina/Ushuaia&quot;,&quot;America/Asuncion&quot;,&quot;America/Atikokan&quot;,&quot;America/Bahia&quot;,&quot;America/Bahia_Banderas&quot;,&quot;America/Barbados&quot;,&quot;America/Belem&quot;,&quot;America/Belize&quot;,&quot;America/Blanc-Sablon&quot;,&quot;America/Boa_Vista&quot;,&quot;America/Bogota&quot;,&quot;America/Boise&quot;,&quot;America/Cambridge_Bay&quot;,&quot;America/Campo_Grande&quot;,&quot;America/Cancun&quot;,&quot;America/Caracas&quot;,&quot;America/Cayenne&quot;,&quot;America/Chicago&quot;,&quot;America/Chihuahua&quot;,&quot;America/Costa_Rica&quot;,&quot;America/Creston&quot;,&quot;America/Cuiaba&quot;,&quot;America/Curacao&quot;,&quot;America/Danmarkshavn&quot;,&quot;America/Dawson&quot;,&quot;America/Dawson_Creek&quot;,&quot;America/Denver&quot;,&quot;America/Detroit&quot;,&quot;America/Edmonton&quot;,&quot;America/Eirunepe&quot;,&quot;America/El_Salvador&quot;,&quot;America/Fort_Nelson&quot;,&quot;America/Fortaleza&quot;,&quot;America/Glace_Bay&quot;,&quot;America/Goose_Bay&quot;,&quot;America/Grand_Turk&quot;,&quot;America/Guatemala&quot;,&quot;America/Guayaquil&quot;,&quot;America/Guyana&quot;,&quot;America/Halifax&quot;,&quot;America/Havana&quot;,&quot;America/Hermosillo&quot;,&quot;America/Indiana/Indianapolis&quot;,&quot;America/Indiana/Knox&quot;,&quot;America/Indiana/Marengo&quot;,&quot;America/Indiana/Petersburg&quot;,&quot;America/Indiana/Tell_City&quot;,&quot;America/Indiana/Vevay&quot;,&quot;America/Indiana/Vincennes&quot;,&quot;America/Indiana/Winamac&quot;,&quot;America/Inuvik&quot;,&quot;America/Iqaluit&quot;,&quot;America/Jamaica&quot;,&quot;America/Juneau&quot;,&quot;America/Kentucky/Louisville&quot;,&quot;America/Kentucky/Monticello&quot;,&quot;America/La_Paz&quot;,&quot;America/Lima&quot;,&quot;America/Los_Angeles&quot;,&quot;America/Maceio&quot;,&quot;America/Managua&quot;,&quot;America/Manaus&quot;,&quot;America/Martinique&quot;,&quot;America/Matamoros&quot;,&quot;America/Mazatlan&quot;,&quot;America/Menominee&quot;,&quot;America/Merida&quot;,&quot;America/Metlakatla&quot;,&quot;America/Mexico_City&quot;,&quot;America/Miquelon&quot;,&quot;America/Moncton&quot;,&quot;America/Monterrey&quot;,&quot;America/Montevideo&quot;,&quot;America/Nassau&quot;,&quot;America/New_York&quot;,&quot;America/Nipigon&quot;,&quot;America/Nome&quot;,&quot;America/Noronha&quot;,&quot;America/North_Dakota/Beulah&quot;,&quot;America/North_Dakota/Center&quot;,&quot;America/North_Dakota/New_Salem&quot;,&quot;America/Nuuk&quot;,&quot;America/Ojinaga&quot;,&quot;America/Panama&quot;,&quot;America/Pangnirtung&quot;,&quot;America/Paramaribo&quot;,&quot;America/Phoenix&quot;,&quot;America/Port-au-Prince&quot;,&quot;America/Port_of_Spain&quot;,&quot;America/Porto_Velho&quot;,&quot;America/Puerto_Rico&quot;,&quot;America/Punta_Arenas&quot;,&quot;America/Rainy_River&quot;,&quot;America/Rankin_Inlet&quot;,&quot;America/Recife&quot;,&quot;America/Regina&quot;,&quot;America/Resolute&quot;,&quot;America/Rio_Branco&quot;,&quot;America/Santarem&quot;,&quot;America/Santiago&quot;,&quot;America/Santo_Domingo&quot;,&quot;America/Sao_Paulo&quot;,&quot;America/Scoresbysund&quot;,&quot;America/Sitka&quot;,&quot;America/St_Johns&quot;,&quot;America/Swift_Current&quot;,&quot;America/Tegucigalpa&quot;,&quot;America/Thule&quot;,&quot;America/Thunder_Bay&quot;,&quot;America/Tijuana&quot;,&quot;America/Toronto&quot;,&quot;America/Vancouver&quot;,&quot;America/Whitehorse&quot;,&quot;America/Winnipeg&quot;,&quot;America/Yakutat&quot;,&quot;America/Yellowknife&quot;,&quot;Antarctica/Casey&quot;,&quot;Antarctica/Davis&quot;,&quot;Antarctica/DumontDUrville&quot;,&quot;Antarctica/Macquarie&quot;,&quot;Antarctica/Mawson&quot;,&quot;Antarctica/Palmer&quot;,&quot;Antarctica/Rothera&quot;,&quot;Antarctica/Syowa&quot;,&quot;Antarctica/Troll&quot;,&quot;Antarctica/Vostok&quot;,&quot;Asia/Almaty&quot;,&quot;Asia/Amman&quot;,&quot;Asia/Anadyr&quot;,&quot;Asia/Aqtau&quot;,&quot;Asia/Aqtobe&quot;,&quot;Asia/Ashgabat&quot;,&quot;Asia/Atyrau&quot;,&quot;Asia/Baghdad&quot;,&quot;Asia/Baku&quot;,&quot;Asia/Bangkok&quot;,&quot;Asia/Barnaul&quot;,&quot;Asia/Beirut&quot;,&quot;Asia/Bishkek&quot;,&quot;Asia/Brunei&quot;,&quot;Asia/Chita&quot;,&quot;Asia/Choibalsan&quot;,&quot;Asia/Colombo&quot;,&quot;Asia/Damascus&quot;,&quot;Asia/Dhaka&quot;,&quot;Asia/Dili&quot;,&quot;Asia/Dubai&quot;,&quot;Asia/Dushanbe&quot;,&quot;Asia/Famagusta&quot;,&quot;Asia/Gaza&quot;,&quot;Asia/Hebron&quot;,&quot;Asia/Ho_Chi_Minh&quot;,&quot;Asia/Hong_Kong&quot;,&quot;Asia/Hovd&quot;,&quot;Asia/Irkutsk&quot;,&quot;Asia/Jakarta&quot;,&quot;Asia/Jayapura&quot;,&quot;Asia/Jerusalem&quot;,&quot;Asia/Kabul&quot;,&quot;Asia/Kamchatka&quot;,&quot;Asia/Karachi&quot;,&quot;Asia/Kathmandu&quot;,&quot;Asia/Khandyga&quot;,&quot;Asia/Kolkata&quot;,&quot;Asia/Krasnoyarsk&quot;,&quot;Asia/Kuala_Lumpur&quot;,&quot;Asia/Kuching&quot;,&quot;Asia/Macau&quot;,&quot;Asia/Magadan&quot;,&quot;Asia/Makassar&quot;,&quot;Asia/Manila&quot;,&quot;Asia/Nicosia&quot;,&quot;Asia/Novokuznetsk&quot;,&quot;Asia/Novosibirsk&quot;,&quot;Asia/Omsk&quot;,&quot;Asia/Oral&quot;,&quot;Asia/Pontianak&quot;,&quot;Asia/Pyongyang&quot;,&quot;Asia/Qatar&quot;,&quot;Asia/Qostanay&quot;,&quot;Asia/Qyzylorda&quot;,&quot;Asia/Riyadh&quot;,&quot;Asia/Sakhalin&quot;,&quot;Asia/Samarkand&quot;,&quot;Asia/Seoul&quot;,&quot;Asia/Shanghai&quot;,&quot;Asia/Singapore&quot;,&quot;Asia/Srednekolymsk&quot;,&quot;Asia/Taipei&quot;,&quot;Asia/Tashkent&quot;,&quot;Asia/Tbilisi&quot;,&quot;Asia/Tehran&quot;,&quot;Asia/Thimphu&quot;,&quot;Asia/Tokyo&quot;,&quot;Asia/Tomsk&quot;,&quot;Asia/Ulaanbaatar&quot;,&quot;Asia/Urumqi&quot;,&quot;Asia/Ust-Nera&quot;,&quot;Asia/Vladivostok&quot;,&quot;Asia/Yakutsk&quot;,&quot;Asia/Yangon&quot;,&quot;Asia/Yekaterinburg&quot;,&quot;Asia/Yerevan&quot;,&quot;Atlantic/Azores&quot;,&quot;Atlantic/Bermuda&quot;,&quot;Atlantic/Canary&quot;,&quot;Atlantic/Cape_Verde&quot;,&quot;Atlantic/Faroe&quot;,&quot;Atlantic/Madeira&quot;,&quot;Atlantic/Reykjavik&quot;,&quot;Atlantic/South_Georgia&quot;,&quot;Atlantic/Stanley&quot;,&quot;Australia/Adelaide&quot;,&quot;Australia/Brisbane&quot;,&quot;Australia/Broken_Hill&quot;,&quot;Australia/Darwin&quot;,&quot;Australia/Eucla&quot;,&quot;Australia/Hobart&quot;,&quot;Australia/Lindeman&quot;,&quot;Australia/Lord_Howe&quot;,&quot;Australia/Melbourne&quot;,&quot;Australia/Perth&quot;,&quot;Australia/Sydney&quot;,&quot;CET&quot;,&quot;CST6CDT&quot;,&quot;EET&quot;,&quot;EST&quot;,&quot;EST5EDT&quot;,&quot;Etc/GMT&quot;,&quot;Etc/GMT+1&quot;,&quot;Etc/GMT+10&quot;,&quot;Etc/GMT+11&quot;,&quot;Etc/GMT+12&quot;,&quot;Etc/GMT+2&quot;,&quot;Etc/GMT+3&quot;,&quot;Etc/GMT+4&quot;,&quot;Etc/GMT+5&quot;,&quot;Etc/GMT+6&quot;,&quot;Etc/GMT+7&quot;,&quot;Etc/GMT+8&quot;,&quot;Etc/GMT+9&quot;,&quot;Etc/GMT-1&quot;,&quot;Etc/GMT-10&quot;,&quot;Etc/GMT-11&quot;,&quot;Etc/GMT-12&quot;,&quot;Etc/GMT-13&quot;,&quot;Etc/GMT-14&quot;,&quot;Etc/GMT-2&quot;,&quot;Etc/GMT-3&quot;,&quot;Etc/GMT-4&quot;,&quot;Etc/GMT-5&quot;,&quot;Etc/GMT-6&quot;,&quot;Etc/GMT-7&quot;,&quot;Etc/GMT-8&quot;,&quot;Etc/GMT-9&quot;,&quot;Etc/UTC&quot;,&quot;Europe/Amsterdam&quot;,&quot;Europe/Andorra&quot;,&quot;Europe/Astrakhan&quot;,&quot;Europe/Athens&quot;,&quot;Europe/Belgrade&quot;,&quot;Europe/Berlin&quot;,&quot;Europe/Brussels&quot;,&quot;Europe/Bucharest&quot;,&quot;Europe/Budapest&quot;,&quot;Europe/Chisinau&quot;,&quot;Europe/Copenhagen&quot;,&quot;Europe/Dublin&quot;,&quot;Europe/Gibraltar&quot;,&quot;Europe/Helsinki&quot;,&quot;Europe/Istanbul&quot;,&quot;Europe/Kaliningrad&quot;,&quot;Europe/Kiev&quot;,&quot;Europe/Kirov&quot;,&quot;Europe/Lisbon&quot;,&quot;Europe/London&quot;,&quot;Europe/Luxembourg&quot;,&quot;Europe/Madrid&quot;,&quot;Europe/Malta&quot;,&quot;Europe/Minsk&quot;,&quot;Europe/Monaco&quot;,&quot;Europe/Moscow&quot;,&quot;Europe/Oslo&quot;,&quot;Europe/Paris&quot;,&quot;Europe/Prague&quot;,&quot;Europe/Riga&quot;,&quot;Europe/Rome&quot;,&quot;Europe/Samara&quot;,&quot;Europe/Saratov&quot;,&quot;Europe/Simferopol&quot;,&quot;Europe/Sofia&quot;,&quot;Europe/Stockholm&quot;,&quot;Europe/Tallinn&quot;,&quot;Europe/Tirane&quot;,&quot;Europe/Ulyanovsk&quot;,&quot;Europe/Uzhgorod&quot;,&quot;Europe/Vienna&quot;,&quot;Europe/Vilnius&quot;,&quot;Europe/Volgograd&quot;,&quot;Europe/Warsaw&quot;,&quot;Europe/Zaporozhye&quot;,&quot;Europe/Zurich&quot;,&quot;HST&quot;,&quot;Indian/Chagos&quot;,&quot;Indian/Christmas&quot;,&quot;Indian/Cocos&quot;,&quot;Indian/Kerguelen&quot;,&quot;Indian/Mahe&quot;,&quot;Indian/Maldives&quot;,&quot;Indian/Mauritius&quot;,&quot;Indian/Reunion&quot;,&quot;MET&quot;,&quot;MST&quot;,&quot;MST7MDT&quot;,&quot;PST8PDT&quot;,&quot;Pacific/Apia&quot;,&quot;Pacific/Auckland&quot;,&quot;Pacific/Bougainville&quot;,&quot;Pacific/Chatham&quot;,&quot;Pacific/Chuuk&quot;,&quot;Pacific/Easter&quot;,&quot;Pacific/Efate&quot;,&quot;Pacific/Enderbury&quot;,&quot;Pacific/Fakaofo&quot;,&quot;Pacific/Fiji&quot;,&quot;Pacific/Funafuti&quot;,&quot;Pacific/Galapagos&quot;,&quot;Pacific/Gambier&quot;,&quot;Pacific/Guadalcanal&quot;,&quot;Pacific/Guam&quot;,&quot;Pacific/Honolulu&quot;,&quot;Pacific/Kiritimati&quot;,&quot;Pacific/Kosrae&quot;,&quot;Pacific/Kwajalein&quot;,&quot;Pacific/Majuro&quot;,&quot;Pacific/Marquesas&quot;,&quot;Pacific/Nauru&quot;,&quot;Pacific/Niue&quot;,&quot;Pacific/Norfolk&quot;,&quot;Pacific/Noumea&quot;,&quot;Pacific/Pago_Pago&quot;,&quot;Pacific/Palau&quot;,&quot;Pacific/Pitcairn&quot;,&quot;Pacific/Pohnpei&quot;,&quot;Pacific/Port_Moresby&quot;,&quot;Pacific/Rarotonga&quot;,&quot;Pacific/Tahiti&quot;,&quot;Pacific/Tarawa&quot;,&quot;Pacific/Tongatapu&quot;,&quot;Pacific/Wake&quot;,&quot;Pacific/Wallis&quot;,&quot;WET&quot;]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://worldtimeapi.org/api/timezone</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1673451339267" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" de="utf-8" by="982" sby="148" sc="1" ec="0" ng="1" na="1" hn="6c19e3407242">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: 
+cache-control: max-age=0, private, must-revalidate
+content-length: 347
+content-type: application/json; charset=utf-8
+cross-origin-window-policy: deny
+date: Wed, 11 Jan 2023 15:35:38 GMT
+server: Fly/6ba06c04e (2023-01-09)
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: FzlLIHxTyqF6wid9R9yB
+x-runtime: 309Âµs
+x-xss-protection: 1; mode=block
+via: 1.1 fly.io
+fly-request-id: 01GPGQHZNGH7QW7RNXDZTGF9GQ-mia
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: worldtimeapi.org
+User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_352)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;abbreviation&quot;:&quot;-05&quot;,&quot;client_ip&quot;:&quot;190.24.30.235&quot;,&quot;datetime&quot;:&quot;2023-01-11T10:35:39.442149-05:00&quot;,&quot;day_of_week&quot;:3,&quot;day_of_year&quot;:11,&quot;dst&quot;:false,&quot;dst_from&quot;:null,&quot;dst_offset&quot;:0,&quot;dst_until&quot;:null,&quot;raw_offset&quot;:-18000,&quot;timezone&quot;:&quot;America/Bogota&quot;,&quot;unixtime&quot;:1673451339,&quot;utc_datetime&quot;:&quot;2023-01-11T15:35:39.442149+00:00&quot;,&quot;utc_offset&quot;:&quot;-05:00&quot;,&quot;week_number&quot;:2}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://worldtimeapi.org/api/timezone/America/Bogota</java.net.URL>
+</httpSample>
+
+<httpSample t="163" it="0" lt="163" ct="86" ts="1673451374217" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" de="utf-8" by="7509" sby="133" sc="1" ec="0" ng="1" na="1" hn="6c19e3407242">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: 
+cache-control: max-age=0, private, must-revalidate
+content-length: 6873
+content-type: application/json; charset=utf-8
+cross-origin-window-policy: deny
+date: Wed, 11 Jan 2023 15:36:13 GMT
+server: Fly/6ba06c04e (2023-01-09)
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: FzlLKKSjBaIGFnB9Sznh
+x-runtime: 289Âµs
+x-xss-protection: 1; mode=block
+via: 1.1 fly.io
+fly-request-id: 01GPGQK1WDNT32KEP5VT43J4EF-mia
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: worldtimeapi.org
+User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_352)
+</requestHeader>
+  <responseData class="java.lang.String">[&quot;Africa/Abidjan&quot;,&quot;Africa/Accra&quot;,&quot;Africa/Algiers&quot;,&quot;Africa/Bissau&quot;,&quot;Africa/Cairo&quot;,&quot;Africa/Casablanca&quot;,&quot;Africa/Ceuta&quot;,&quot;Africa/El_Aaiun&quot;,&quot;Africa/Johannesburg&quot;,&quot;Africa/Juba&quot;,&quot;Africa/Khartoum&quot;,&quot;Africa/Lagos&quot;,&quot;Africa/Maputo&quot;,&quot;Africa/Monrovia&quot;,&quot;Africa/Nairobi&quot;,&quot;Africa/Ndjamena&quot;,&quot;Africa/Sao_Tome&quot;,&quot;Africa/Tripoli&quot;,&quot;Africa/Tunis&quot;,&quot;Africa/Windhoek&quot;,&quot;America/Adak&quot;,&quot;America/Anchorage&quot;,&quot;America/Araguaina&quot;,&quot;America/Argentina/Buenos_Aires&quot;,&quot;America/Argentina/Catamarca&quot;,&quot;America/Argentina/Cordoba&quot;,&quot;America/Argentina/Jujuy&quot;,&quot;America/Argentina/La_Rioja&quot;,&quot;America/Argentina/Mendoza&quot;,&quot;America/Argentina/Rio_Gallegos&quot;,&quot;America/Argentina/Salta&quot;,&quot;America/Argentina/San_Juan&quot;,&quot;America/Argentina/San_Luis&quot;,&quot;America/Argentina/Tucuman&quot;,&quot;America/Argentina/Ushuaia&quot;,&quot;America/Asuncion&quot;,&quot;America/Atikokan&quot;,&quot;America/Bahia&quot;,&quot;America/Bahia_Banderas&quot;,&quot;America/Barbados&quot;,&quot;America/Belem&quot;,&quot;America/Belize&quot;,&quot;America/Blanc-Sablon&quot;,&quot;America/Boa_Vista&quot;,&quot;America/Bogota&quot;,&quot;America/Boise&quot;,&quot;America/Cambridge_Bay&quot;,&quot;America/Campo_Grande&quot;,&quot;America/Cancun&quot;,&quot;America/Caracas&quot;,&quot;America/Cayenne&quot;,&quot;America/Chicago&quot;,&quot;America/Chihuahua&quot;,&quot;America/Costa_Rica&quot;,&quot;America/Creston&quot;,&quot;America/Cuiaba&quot;,&quot;America/Curacao&quot;,&quot;America/Danmarkshavn&quot;,&quot;America/Dawson&quot;,&quot;America/Dawson_Creek&quot;,&quot;America/Denver&quot;,&quot;America/Detroit&quot;,&quot;America/Edmonton&quot;,&quot;America/Eirunepe&quot;,&quot;America/El_Salvador&quot;,&quot;America/Fort_Nelson&quot;,&quot;America/Fortaleza&quot;,&quot;America/Glace_Bay&quot;,&quot;America/Goose_Bay&quot;,&quot;America/Grand_Turk&quot;,&quot;America/Guatemala&quot;,&quot;America/Guayaquil&quot;,&quot;America/Guyana&quot;,&quot;America/Halifax&quot;,&quot;America/Havana&quot;,&quot;America/Hermosillo&quot;,&quot;America/Indiana/Indianapolis&quot;,&quot;America/Indiana/Knox&quot;,&quot;America/Indiana/Marengo&quot;,&quot;America/Indiana/Petersburg&quot;,&quot;America/Indiana/Tell_City&quot;,&quot;America/Indiana/Vevay&quot;,&quot;America/Indiana/Vincennes&quot;,&quot;America/Indiana/Winamac&quot;,&quot;America/Inuvik&quot;,&quot;America/Iqaluit&quot;,&quot;America/Jamaica&quot;,&quot;America/Juneau&quot;,&quot;America/Kentucky/Louisville&quot;,&quot;America/Kentucky/Monticello&quot;,&quot;America/La_Paz&quot;,&quot;America/Lima&quot;,&quot;America/Los_Angeles&quot;,&quot;America/Maceio&quot;,&quot;America/Managua&quot;,&quot;America/Manaus&quot;,&quot;America/Martinique&quot;,&quot;America/Matamoros&quot;,&quot;America/Mazatlan&quot;,&quot;America/Menominee&quot;,&quot;America/Merida&quot;,&quot;America/Metlakatla&quot;,&quot;America/Mexico_City&quot;,&quot;America/Miquelon&quot;,&quot;America/Moncton&quot;,&quot;America/Monterrey&quot;,&quot;America/Montevideo&quot;,&quot;America/Nassau&quot;,&quot;America/New_York&quot;,&quot;America/Nipigon&quot;,&quot;America/Nome&quot;,&quot;America/Noronha&quot;,&quot;America/North_Dakota/Beulah&quot;,&quot;America/North_Dakota/Center&quot;,&quot;America/North_Dakota/New_Salem&quot;,&quot;America/Nuuk&quot;,&quot;America/Ojinaga&quot;,&quot;America/Panama&quot;,&quot;America/Pangnirtung&quot;,&quot;America/Paramaribo&quot;,&quot;America/Phoenix&quot;,&quot;America/Port-au-Prince&quot;,&quot;America/Port_of_Spain&quot;,&quot;America/Porto_Velho&quot;,&quot;America/Puerto_Rico&quot;,&quot;America/Punta_Arenas&quot;,&quot;America/Rainy_River&quot;,&quot;America/Rankin_Inlet&quot;,&quot;America/Recife&quot;,&quot;America/Regina&quot;,&quot;America/Resolute&quot;,&quot;America/Rio_Branco&quot;,&quot;America/Santarem&quot;,&quot;America/Santiago&quot;,&quot;America/Santo_Domingo&quot;,&quot;America/Sao_Paulo&quot;,&quot;America/Scoresbysund&quot;,&quot;America/Sitka&quot;,&quot;America/St_Johns&quot;,&quot;America/Swift_Current&quot;,&quot;America/Tegucigalpa&quot;,&quot;America/Thule&quot;,&quot;America/Thunder_Bay&quot;,&quot;America/Tijuana&quot;,&quot;America/Toronto&quot;,&quot;America/Vancouver&quot;,&quot;America/Whitehorse&quot;,&quot;America/Winnipeg&quot;,&quot;America/Yakutat&quot;,&quot;America/Yellowknife&quot;,&quot;Antarctica/Casey&quot;,&quot;Antarctica/Davis&quot;,&quot;Antarctica/DumontDUrville&quot;,&quot;Antarctica/Macquarie&quot;,&quot;Antarctica/Mawson&quot;,&quot;Antarctica/Palmer&quot;,&quot;Antarctica/Rothera&quot;,&quot;Antarctica/Syowa&quot;,&quot;Antarctica/Troll&quot;,&quot;Antarctica/Vostok&quot;,&quot;Asia/Almaty&quot;,&quot;Asia/Amman&quot;,&quot;Asia/Anadyr&quot;,&quot;Asia/Aqtau&quot;,&quot;Asia/Aqtobe&quot;,&quot;Asia/Ashgabat&quot;,&quot;Asia/Atyrau&quot;,&quot;Asia/Baghdad&quot;,&quot;Asia/Baku&quot;,&quot;Asia/Bangkok&quot;,&quot;Asia/Barnaul&quot;,&quot;Asia/Beirut&quot;,&quot;Asia/Bishkek&quot;,&quot;Asia/Brunei&quot;,&quot;Asia/Chita&quot;,&quot;Asia/Choibalsan&quot;,&quot;Asia/Colombo&quot;,&quot;Asia/Damascus&quot;,&quot;Asia/Dhaka&quot;,&quot;Asia/Dili&quot;,&quot;Asia/Dubai&quot;,&quot;Asia/Dushanbe&quot;,&quot;Asia/Famagusta&quot;,&quot;Asia/Gaza&quot;,&quot;Asia/Hebron&quot;,&quot;Asia/Ho_Chi_Minh&quot;,&quot;Asia/Hong_Kong&quot;,&quot;Asia/Hovd&quot;,&quot;Asia/Irkutsk&quot;,&quot;Asia/Jakarta&quot;,&quot;Asia/Jayapura&quot;,&quot;Asia/Jerusalem&quot;,&quot;Asia/Kabul&quot;,&quot;Asia/Kamchatka&quot;,&quot;Asia/Karachi&quot;,&quot;Asia/Kathmandu&quot;,&quot;Asia/Khandyga&quot;,&quot;Asia/Kolkata&quot;,&quot;Asia/Krasnoyarsk&quot;,&quot;Asia/Kuala_Lumpur&quot;,&quot;Asia/Kuching&quot;,&quot;Asia/Macau&quot;,&quot;Asia/Magadan&quot;,&quot;Asia/Makassar&quot;,&quot;Asia/Manila&quot;,&quot;Asia/Nicosia&quot;,&quot;Asia/Novokuznetsk&quot;,&quot;Asia/Novosibirsk&quot;,&quot;Asia/Omsk&quot;,&quot;Asia/Oral&quot;,&quot;Asia/Pontianak&quot;,&quot;Asia/Pyongyang&quot;,&quot;Asia/Qatar&quot;,&quot;Asia/Qostanay&quot;,&quot;Asia/Qyzylorda&quot;,&quot;Asia/Riyadh&quot;,&quot;Asia/Sakhalin&quot;,&quot;Asia/Samarkand&quot;,&quot;Asia/Seoul&quot;,&quot;Asia/Shanghai&quot;,&quot;Asia/Singapore&quot;,&quot;Asia/Srednekolymsk&quot;,&quot;Asia/Taipei&quot;,&quot;Asia/Tashkent&quot;,&quot;Asia/Tbilisi&quot;,&quot;Asia/Tehran&quot;,&quot;Asia/Thimphu&quot;,&quot;Asia/Tokyo&quot;,&quot;Asia/Tomsk&quot;,&quot;Asia/Ulaanbaatar&quot;,&quot;Asia/Urumqi&quot;,&quot;Asia/Ust-Nera&quot;,&quot;Asia/Vladivostok&quot;,&quot;Asia/Yakutsk&quot;,&quot;Asia/Yangon&quot;,&quot;Asia/Yekaterinburg&quot;,&quot;Asia/Yerevan&quot;,&quot;Atlantic/Azores&quot;,&quot;Atlantic/Bermuda&quot;,&quot;Atlantic/Canary&quot;,&quot;Atlantic/Cape_Verde&quot;,&quot;Atlantic/Faroe&quot;,&quot;Atlantic/Madeira&quot;,&quot;Atlantic/Reykjavik&quot;,&quot;Atlantic/South_Georgia&quot;,&quot;Atlantic/Stanley&quot;,&quot;Australia/Adelaide&quot;,&quot;Australia/Brisbane&quot;,&quot;Australia/Broken_Hill&quot;,&quot;Australia/Darwin&quot;,&quot;Australia/Eucla&quot;,&quot;Australia/Hobart&quot;,&quot;Australia/Lindeman&quot;,&quot;Australia/Lord_Howe&quot;,&quot;Australia/Melbourne&quot;,&quot;Australia/Perth&quot;,&quot;Australia/Sydney&quot;,&quot;CET&quot;,&quot;CST6CDT&quot;,&quot;EET&quot;,&quot;EST&quot;,&quot;EST5EDT&quot;,&quot;Etc/GMT&quot;,&quot;Etc/GMT+1&quot;,&quot;Etc/GMT+10&quot;,&quot;Etc/GMT+11&quot;,&quot;Etc/GMT+12&quot;,&quot;Etc/GMT+2&quot;,&quot;Etc/GMT+3&quot;,&quot;Etc/GMT+4&quot;,&quot;Etc/GMT+5&quot;,&quot;Etc/GMT+6&quot;,&quot;Etc/GMT+7&quot;,&quot;Etc/GMT+8&quot;,&quot;Etc/GMT+9&quot;,&quot;Etc/GMT-1&quot;,&quot;Etc/GMT-10&quot;,&quot;Etc/GMT-11&quot;,&quot;Etc/GMT-12&quot;,&quot;Etc/GMT-13&quot;,&quot;Etc/GMT-14&quot;,&quot;Etc/GMT-2&quot;,&quot;Etc/GMT-3&quot;,&quot;Etc/GMT-4&quot;,&quot;Etc/GMT-5&quot;,&quot;Etc/GMT-6&quot;,&quot;Etc/GMT-7&quot;,&quot;Etc/GMT-8&quot;,&quot;Etc/GMT-9&quot;,&quot;Etc/UTC&quot;,&quot;Europe/Amsterdam&quot;,&quot;Europe/Andorra&quot;,&quot;Europe/Astrakhan&quot;,&quot;Europe/Athens&quot;,&quot;Europe/Belgrade&quot;,&quot;Europe/Berlin&quot;,&quot;Europe/Brussels&quot;,&quot;Europe/Bucharest&quot;,&quot;Europe/Budapest&quot;,&quot;Europe/Chisinau&quot;,&quot;Europe/Copenhagen&quot;,&quot;Europe/Dublin&quot;,&quot;Europe/Gibraltar&quot;,&quot;Europe/Helsinki&quot;,&quot;Europe/Istanbul&quot;,&quot;Europe/Kaliningrad&quot;,&quot;Europe/Kiev&quot;,&quot;Europe/Kirov&quot;,&quot;Europe/Lisbon&quot;,&quot;Europe/London&quot;,&quot;Europe/Luxembourg&quot;,&quot;Europe/Madrid&quot;,&quot;Europe/Malta&quot;,&quot;Europe/Minsk&quot;,&quot;Europe/Monaco&quot;,&quot;Europe/Moscow&quot;,&quot;Europe/Oslo&quot;,&quot;Europe/Paris&quot;,&quot;Europe/Prague&quot;,&quot;Europe/Riga&quot;,&quot;Europe/Rome&quot;,&quot;Europe/Samara&quot;,&quot;Europe/Saratov&quot;,&quot;Europe/Simferopol&quot;,&quot;Europe/Sofia&quot;,&quot;Europe/Stockholm&quot;,&quot;Europe/Tallinn&quot;,&quot;Europe/Tirane&quot;,&quot;Europe/Ulyanovsk&quot;,&quot;Europe/Uzhgorod&quot;,&quot;Europe/Vienna&quot;,&quot;Europe/Vilnius&quot;,&quot;Europe/Volgograd&quot;,&quot;Europe/Warsaw&quot;,&quot;Europe/Zaporozhye&quot;,&quot;Europe/Zurich&quot;,&quot;HST&quot;,&quot;Indian/Chagos&quot;,&quot;Indian/Christmas&quot;,&quot;Indian/Cocos&quot;,&quot;Indian/Kerguelen&quot;,&quot;Indian/Mahe&quot;,&quot;Indian/Maldives&quot;,&quot;Indian/Mauritius&quot;,&quot;Indian/Reunion&quot;,&quot;MET&quot;,&quot;MST&quot;,&quot;MST7MDT&quot;,&quot;PST8PDT&quot;,&quot;Pacific/Apia&quot;,&quot;Pacific/Auckland&quot;,&quot;Pacific/Bougainville&quot;,&quot;Pacific/Chatham&quot;,&quot;Pacific/Chuuk&quot;,&quot;Pacific/Easter&quot;,&quot;Pacific/Efate&quot;,&quot;Pacific/Enderbury&quot;,&quot;Pacific/Fakaofo&quot;,&quot;Pacific/Fiji&quot;,&quot;Pacific/Funafuti&quot;,&quot;Pacific/Galapagos&quot;,&quot;Pacific/Gambier&quot;,&quot;Pacific/Guadalcanal&quot;,&quot;Pacific/Guam&quot;,&quot;Pacific/Honolulu&quot;,&quot;Pacific/Kiritimati&quot;,&quot;Pacific/Kosrae&quot;,&quot;Pacific/Kwajalein&quot;,&quot;Pacific/Majuro&quot;,&quot;Pacific/Marquesas&quot;,&quot;Pacific/Nauru&quot;,&quot;Pacific/Niue&quot;,&quot;Pacific/Norfolk&quot;,&quot;Pacific/Noumea&quot;,&quot;Pacific/Pago_Pago&quot;,&quot;Pacific/Palau&quot;,&quot;Pacific/Pitcairn&quot;,&quot;Pacific/Pohnpei&quot;,&quot;Pacific/Port_Moresby&quot;,&quot;Pacific/Rarotonga&quot;,&quot;Pacific/Tahiti&quot;,&quot;Pacific/Tarawa&quot;,&quot;Pacific/Tongatapu&quot;,&quot;Pacific/Wake&quot;,&quot;Pacific/Wallis&quot;,&quot;WET&quot;]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://worldtimeapi.org/api/timezone</java.net.URL>
+</httpSample>
+<httpSample t="64" it="0" lt="64" ct="0" ts="1673451374462" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" de="utf-8" by="982" sby="148" sc="1" ec="0" ng="1" na="1" hn="6c19e3407242">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+access-control-allow-credentials: true
+access-control-allow-origin: *
+access-control-expose-headers: 
+cache-control: max-age=0, private, must-revalidate
+content-length: 347
+content-type: application/json; charset=utf-8
+cross-origin-window-policy: deny
+date: Wed, 11 Jan 2023 15:36:13 GMT
+server: Fly/6ba06c04e (2023-01-09)
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: FzlLKK4Cl9fDR-19Sz1h
+x-runtime: 748Âµs
+x-xss-protection: 1; mode=block
+via: 1.1 fly.io
+fly-request-id: 01GPGQK21A273RXAXQGZ3AFPMR-mia
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: worldtimeapi.org
+User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_352)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;abbreviation&quot;:&quot;-05&quot;,&quot;client_ip&quot;:&quot;190.24.30.235&quot;,&quot;datetime&quot;:&quot;2023-01-11T10:36:14.635506-05:00&quot;,&quot;day_of_week&quot;:3,&quot;day_of_year&quot;:11,&quot;dst&quot;:false,&quot;dst_from&quot;:null,&quot;dst_offset&quot;:0,&quot;dst_until&quot;:null,&quot;raw_offset&quot;:-18000,&quot;timezone&quot;:&quot;America/Bogota&quot;,&quot;unixtime&quot;:1673451374,&quot;utc_datetime&quot;:&quot;2023-01-11T15:36:14.635506+00:00&quot;,&quot;utc_offset&quot;:&quot;-05:00&quot;,&quot;week_number&quot;:2}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://worldtimeapi.org/api/timezone/America/Bogota</java.net.URL>
+</httpSample>
+
+</testResults>

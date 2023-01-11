@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1673451338952,244,HTTP Request,200,OK,Thread Group 1-1,text,true,,7509,133,1,1,http://worldtimeapi.org/api/timezone,243,0,168
+1673451339267,65,HTTP Request,200,OK,Thread Group 1-1,text,true,,982,148,1,1,http://worldtimeapi.org/api/timezone/America/Bogota,65,0,0
+1673451374217,163,HTTP Request,200,OK,Thread Group 1-1,text,true,,7509,133,1,1,http://worldtimeapi.org/api/timezone,163,0,86
+1673451374462,64,HTTP Request,200,OK,Thread Group 1-1,text,true,,982,148,1,1,http://worldtimeapi.org/api/timezone/America/Bogota,64,0,0
